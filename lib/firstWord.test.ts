@@ -40,7 +40,7 @@ const valsToTest = [
   },
 ];
 
-describe.only("?? test", function () {
+describe("firstWord test", function () {
   valsToTest.forEach((v) => {
     it(`${v.start} -> ${v.result}`, function () {
       const b = firstWord(v.start);
